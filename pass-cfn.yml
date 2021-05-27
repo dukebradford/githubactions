@@ -5,6 +5,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 
 #Mappings:
 
+
 Conditions:
   NeverValid: !Equals [ True, False ]
 
