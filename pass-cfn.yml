@@ -14,4 +14,4 @@ Resources:
     Type: 'Custom::NullResource'
     Condition: NeverValid
 
-Outputs:
+#Outputs:
