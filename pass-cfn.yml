@@ -8,8 +8,6 @@ AWSTemplateFormatVersion: '2010-09-09'
 Conditions:
   NeverValid: !Equals [ True, False ]
 
-# a comment
-
 Resources:
   NullResource:
     Type: 'Custom::NullResource'
