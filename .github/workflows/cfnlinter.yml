@@ -16,7 +16,7 @@ jobs:
       - name: Print the Cloud Formation Linter Version & run Linter.
         run: |
           cfn-lint -u
-          cfn-lint cfn/*.yml
+          cfn-lint -i W -f pretty cfn/*.yml
           
       - uses: peter-evans/create-pull-request@v3
         with:
