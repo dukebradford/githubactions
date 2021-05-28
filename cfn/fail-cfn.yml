@@ -12,9 +12,6 @@ Parameters:
     Type: String
     Default: name
 
-#Mappings:
-
-
 Conditions:
   NeverValid: !Equals [ True, False ]
 

@@ -2,12 +2,12 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Misc
 
-Parameters:
-  Test:
-    Description: test description
-    Type: String
-    Default: jim
-    
+# Parameters:
+#   Test:
+#     Description: test description
+#     Type: String
+#     Default: jim
+
 Conditions:
   NeverValid: !Equals [ True, False ]
 
