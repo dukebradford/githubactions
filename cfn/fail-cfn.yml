@@ -1,0 +1,27 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Misc
+
+Parameters:
+  Name:
+    Type: String
+    Default: hello
+    Description: changed
+  
+  Host:
+    Type: String
+    Default: name
+
+#Mappings:
+
+
+Conditions:
+  NeverValid: !Equals [ True,, False ]
+
+Resources:
+  NullResource:
+    Type: 'Custom::NullRsource'
+    Condition: NeverValid
+
+# lets add a comment
+#Outputs:
