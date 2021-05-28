@@ -1,12 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Misc
-
-# Parameters:
-#   Test:
-#     Description: test description
-#     Type: String
-#     Default: jim
+Description: Misc words an ipsum facto
 
 Conditions:
   NeverValid: !Equals [ True, False ]
