@@ -16,7 +16,7 @@ Parameters:
 
 
 Conditions:
-  NeverValid: !Equals [ True,, False ]
+  NeverValid: !Equals [ True, False ]
 
 Resources:
   NullResource:
