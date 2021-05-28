@@ -1,16 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Misc
-
-Parameters:
-  Name:
-    Type: String
-    Default: hello
-    Description: changed
-  
-  Host:
-    Type: String
-    Default: name
+Description: a new version of this file
 
 Conditions:
   NeverValid: !Equals [ True, False ]
@@ -19,4 +9,3 @@ Resources:
   NullResource:
     Type: 'Custom::NullRsource'
     Condition: NeverValid
-    Description: a valid description would go here
