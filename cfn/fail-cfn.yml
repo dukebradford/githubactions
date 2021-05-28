@@ -19,6 +19,4 @@ Resources:
   NullResource:
     Type: 'Custom::NullRsource'
     Condition: NeverValid
-
-# lets add a comment
-#Outputs:
+    Description: a valid description would go here

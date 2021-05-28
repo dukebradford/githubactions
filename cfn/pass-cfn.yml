@@ -2,6 +2,16 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Misc words an ipsum facto
 
+Parameters:
+  Name:
+    Type: String
+    Default: hello
+    Description: changed
+  
+  Host:
+    Type: String
+    Default: name
+
 Conditions:
   NeverValid: !Equals [ True, False ]
 
