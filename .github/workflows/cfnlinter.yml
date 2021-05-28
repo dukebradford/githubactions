@@ -18,5 +18,5 @@ jobs:
           #cfn-lint --version
           #cfn-lint *.yml
           echo "3rd Attempt"
-          cfn-lint cfn/**/*.yaml
+          cfn-lint cfn/*.yaml
 
