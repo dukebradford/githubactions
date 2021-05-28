@@ -2,6 +2,12 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Misc
 
+Parameters:
+  Test:
+    Description: test description
+    Type: String
+    Default: jim
+    
 Conditions:
   NeverValid: !Equals [ True, False ]
 
@@ -9,6 +15,3 @@ Resources:
   NullResource:
     Type: 'Custom::NullResource'
     Condition: NeverValid
-
-# lets add a comment
-#Outputs:
